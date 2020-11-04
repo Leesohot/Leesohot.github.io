@@ -1,2 +1,2 @@
-# Leesohot.github.io
-blog
+# 博客地址:
+Leesohot.github.io
