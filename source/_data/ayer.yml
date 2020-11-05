@@ -8,7 +8,7 @@
 
 # Site
 title: Sohot
-description: Sohot's blog
+description: 顶级恶霸
 keywords:
 author: "Sohot"
 language: zh-CN
@@ -113,7 +113,7 @@ menu:
 # https://github.com/mattboldt/typed.js
 subtitle:
   enable: true # 是否开启动效
-  text: 每当我望见星宿 我都不想逗留 # 显示的文字
+  text: 就当我在宇宙漂流 # 显示的文字
   text2:  # 滚动播放，如果不需要可以留空
   text3:  # 最多支持三段文字
   startDelay: 0 # 延迟时间
