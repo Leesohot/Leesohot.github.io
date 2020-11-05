@@ -29,8 +29,8 @@ before_install:
   # 将 GitHub Token 替换到 ayer.yml 中
   - sed -i "s/REPO_TOKEN/${REPO_TOKEN}/" source/_data/ayer.yml
   # ayer主题下载
-  - git clone https://github.com/Shen-Yu/hexo-theme-ayer.git themes/ayer
-  - cd themes/ayer && git checkout v1.8.0 && cd -
+  # - git clone https://github.com/Shen-Yu/hexo-theme-ayer.git themes/ayer
+  # - cd themes/ayer && git checkout v1.8.0 && cd -
   - yes | cp -rf source/_data/ayer.yml themes/ayer/_config.yml
 install:
   # 不用yarn的话这里改成 npm i 即可

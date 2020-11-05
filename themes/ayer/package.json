@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "parcel serve source-src/main.js -d source/dist",
     "build": "rimraf source/dist && parcel build source-src/main.js -d source/dist --no-source-maps",
-    "postinstall": "node ./move_config.js"
+    "postinstall": "node move_config.js"
   },
   "source": "source-src/main.js",
   "repository": {
