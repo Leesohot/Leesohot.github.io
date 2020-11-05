@@ -100,15 +100,15 @@ options作为搜索控件有如下的属性
 ##### 基本选项
 
 |属性|类型|默认值|描述|
-|----|----|----|
-| isCaseSensitive |`boolean`|false |指示是否区分大小写|
-| includeScore |`boolean`|false|分数是否应包括在结果集中。得分0表示完全匹配，而得分1表示完全不匹配|
-| includeMatches |`boolean`|false|是否将匹配项包含在结果集中。true时，结果集中的每个记录都将包含匹配字符的索引。
-| minMatchCharLength |`boolean`|false |指示是否区分大小写|
-| isCaseSensitive |`number`|1 |仅返回长度超过该值的匹配项。例如要忽略结果中的单个字符匹配，请将其设置为2|
-| shouldSort |`boolean`| true |是否按分数对结果列表进行排序|
-| findAllMatches |`boolean`| false |设置为true时，即使在字符串中已经找到了完全匹配项，匹配函数也将继续搜索模式的结尾。|
-| keys |`Array`| [ ] |将搜索的键列表。这支持嵌套路径，加权搜索，字符串和对象数组的搜索|
+|----|----|----|----|
+|isCaseSensitive |`boolean`|false |指示是否区分大小写|
+|includeScore |`boolean`|false|分数是否应包括在结果集中。得分0表示完全匹配，而得分1表示完全不匹配|
+|includeMatches |`boolean`|false|是否将匹配项包含在结果集中。true时，结果集中的每个记录都将包含匹配字符的索引。
+|minMatchCharLength |`boolean`|false |指示是否区分大小写|
+|isCaseSensitive |`number`|1 |仅返回长度超过该值的匹配项。例如要忽略结果中的单个字符匹配，请将其设置为2|
+|shouldSort |`boolean`| true |是否按分数对结果列表进行排序|
+|findAllMatches |`boolean`| false |设置为true时，即使在字符串中已经找到了完全匹配项，匹配函数也将继续搜索模式的结尾。|
+|keys |`Array`| [ ] |将搜索的键列表。这支持嵌套路径，加权搜索，字符串和对象数组的搜索|
 
 keys属性中，可以为关键字分配权重，以在搜索结果中为其赋予更高（或更低）的值。该weight值必须大于0
 ```js
@@ -130,7 +130,7 @@ const options = {
 ##### 模糊匹配选项
 
 |属性|类型|默认值|描述|
-|----|----|----|
+|----|----|----|----|
 | location |`number`|0 |确定大约在文本中的位置是期望找到的模式|
 | threshold |`number`|0.6 |匹配算法在什么时候放弃。阈值0.0要求完全匹配(字母和位置均需匹配)，阈值1.0会匹配任何内容。|
 | distance |`number`|100 |确定匹配必须与模糊位置（由指定location）之间的接近程度。|
@@ -139,7 +139,7 @@ const options = {
 ##### 高级选项
 
 |属性|类型|默认值|描述|
-|----|----|----|
+|----|----|----|----|
 | useExtendedSearch | `boolean` | false |如果为true，则启用类Unix搜索命令的使用，详见扩展words参数中扩展搜索功能示例|
 | getFn | `Function` | (obj: T, path: string | string[]) => string | string[ ] | 用于在提供的路径上检索对象值的函数。默认值还将搜索嵌套路径|
 | sortFn | `Function` | (a, b) => number | 用于对所有结果进行排序的函数。默认值将按相关性得分递增，索引递增排序|
