@@ -1,0 +1,6 @@
+script.
+  function initTwikoo () {
+    twikoo.init({ envId: '#{theme.twikoo.envId}' })
+  }
+  $.getScript('!{url_for(theme.CDN.twikoo)}', initTwikoo)
+  
