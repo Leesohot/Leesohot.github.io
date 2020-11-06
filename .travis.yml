@@ -26,16 +26,16 @@ before_install:
   - yarn add hexo-generator-baidu-sitemap --save
   - yarn add hexo-deployer-git --save
   - yarn add hexo-helper-live2d --save
-  # 将 GitHub Token 替换到 ayer.yml 中
-  - sed -i "s/REPO_TOKEN/${REPO_TOKEN}/" source/_data/ayer.yml
-  # ayer主题下载
-  # - git clone https://github.com/Shen-Yu/hexo-theme-ayer.git themes/ayer
-  # - cd themes/ayer && git checkout v1.8.0 && cd -
-  - yes | cp -rf source/_data/ayer.yml themes/ayer/_config.yml
+  # 将 GitHub Token 替换到 modify-butterfly.yml 中
+  - sed -i "s/REPO_TOKEN/${REPO_TOKEN}/" source/_data/modify-butterfly.yml
+  # modify-butterfly主题下载
+  # - git clone https://github.com/cnyist/hexo-modify-theme-butterfly.git themes/modify-butterfly
+  # - cd themes/modify-butterfly && git checkout v1.8.0 && cd -
+  - yes | cp -rf source/_data/modify-butterfly.yml themes/modify-butterfly/_config.yml
 install:
   # 不用yarn的话这里改成 npm i 即可
   - yarn
 script:
-  - hexo clean --config source/_data/ayer.yml
-  - hexo g --config source/_data/ayer.yml
-  - hexo d --config source/_data/ayer.yml
+  - hexo clean --config source/_data/modify-butterfly.yml
+  - hexo g --config source/_data/modify-butterfly.yml
+  - hexo d --config source/_data/modify-butterfly.yml
