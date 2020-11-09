@@ -119,10 +119,10 @@ footer_transparent: 0.3 # 填 0-1, 0为完全透明, 1为完全不透明
 random_background: # 随机背景, 注意不要和原主题的 background 同时设置
   post: false # post 文章开启
   page: true # page 页开启
-  username: # github 用户名与
-  repo: # github 图片仓库
+  username: leesohot # github 用户名与
+  repo:  /img # github 图片仓库
   path: /images/404.jpg # 图片路径, 记得最后和前面加一个 `/`
-  num: 55 # 图片数量
+  num: 2 # 图片数量
   suffix: # 图片后缀
 
 # Main menu navigation (導航目錄)
@@ -605,7 +605,7 @@ tag_ui: # 留空或 index
 # The formal of color: '#49B202'
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
 # White color will be shown as default
-background:
+background: #49B202
 
 # Show the footer background image (same as top_img)
 footer_bg: false
@@ -628,8 +628,8 @@ canvas_ribbon:
 
 # Dynamic ribbon (動態彩帶)
 canvas_ribbon_piao:
-  enable: false
-  mobile: false
+  enable: true
+  mobile: true
 
 # canvas_nest
 # https://github.com/hustcc/canvas-nest.js
