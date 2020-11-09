@@ -119,10 +119,10 @@ footer_transparent: 0.3 # 填 0-1, 0为完全透明, 1为完全不透明
 random_background: # 随机背景, 注意不要和原主题的 background 同时设置
   post: false # post 文章开启
   page: true # page 页开启
-  username: cnyist # github 用户名与
+  username: Leesohot # github 用户名与
   repo: banner # github 图片仓库
   path: / # 图片路径, 记得最后和前面加一个 `/`
-  num: 55 # 图片数量
+  num: 12 # 图片数量
   suffix: .jpg # 图片后缀
 
 # Main menu navigation (導航目錄)
