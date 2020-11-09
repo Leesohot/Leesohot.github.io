@@ -216,7 +216,7 @@ favicon: /images/config/favicon-16x16-next.jpg
 # Avatar (頭像)
 avatar:
   img: /images/config/avatar.jpg
-  effect: true
+  effect: false
 
 # the banner image of home page
 index_img:
