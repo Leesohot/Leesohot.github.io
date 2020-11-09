@@ -4,4 +4,14 @@ date: 2020-05-08 20:03:00
 type: "about"
 ---
 
-我的简历
+## CV
+
+### Education Background
+
+Hefei University of Technology (HFUT)                                           
+- Major: Software Engineering
+- Degree: Bachelor of Engineering  
+- GPA: 3.49/4.30
+
+The University of Hong Kong                                            
+- Program: HKU Summer Institute EKOL2019 
