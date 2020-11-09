@@ -8,7 +8,7 @@
 
 # Site
 title: Sohot
-description: modify-butterfly
+description: This is Sohot's blog
 keywords:
 author: "Sohot"
 language: zh-CN
@@ -219,7 +219,7 @@ avatar:
   effect: false
 
 # the banner image of home page
-index_img:
+index_img: /images/background.jpg
 
 # if the banner of page not setting, it will show the top_img
 default_top_img: /images/404.jpg
@@ -229,11 +229,11 @@ archive_img:
 
 # the banner image of tag page
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img:
+tag_img: /images/background.jpg
 
 # the banner image of category page
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img:
+category_img: /images/background.jpg
 
 # If you are using hexo-douban, you can configure it (如果你有使用 hexo-douban,可配置這個)
 # douban:
