@@ -10,7 +10,7 @@ type: "about"
 
 Hefei University of Technology (HFUT)                                           
 - Major: Software Engineering
-- Degree: Bachelor of Engineering  
+- Degree: Bachelor of Engineering  
 - GPA: 3.49/4.30
 
 The University of Hong Kong                                            
