@@ -20,7 +20,7 @@ random_background: # 随机背景, 注意不要和原主题的 background 同时
   page: true # page 页开启
   username: # github 用户名与
   repo: # github 图片仓库
-  path: / # 图片路径, 记得最后和前面加一个 `/`
+  path: /img/404.jpg # 图片路径, 记得最后和前面加一个 `/`
   num: 55 # 图片数量
   suffix: # 图片后缀
 
@@ -405,7 +405,7 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text: 
+  custom_text:
   copyright: true # Copyright of theme and framework
   ICP: # Chinese ICP License
     enable: false
@@ -516,7 +516,8 @@ rightside-bottom:
 # --------------------------------------
 
 # canvas_ribbon (靜止彩帶背景)
-# See: https://github.com/hustcc/ribbon.js
+ See: https://github.com/hustcc/ribbon.js
+ 
 canvas_ribbon:
   enable: false
   size: 150
