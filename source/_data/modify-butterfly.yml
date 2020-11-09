@@ -105,7 +105,7 @@ include:
 cdn_post: # 自动将图片替换为 cdn 加速过的, 仅对图片有部署在 Github 上的博客有效
   img: true # 文章内图片加速
   cover: true # 文章 cover 加速(启用后只能用相对路径, 具体请看魔改 butterfly 文档)
-  cdn_url: "https://cdn.jsdelivr.net/gh/Leesohot/Leesohot.github.io.git" # 将 cnyist 换成 github 的用户名, blog 换成博客的 github 仓库名
+  cdn_url: "https://cdn.jsdelivr.net/gh/Leesohot/Leesohot.github.io.git/" # 将 cnyist 换成 github 的用户名, blog 换成博客的 github 仓库名
 
 content_opacity: # 设置透明度
   post: 1 # 填 0-1, 0为完全透明, 1为完全不透明
@@ -119,10 +119,10 @@ footer_transparent: 0.3 # 填 0-1, 0为完全透明, 1为完全不透明
 random_background: # 随机背景, 注意不要和原主题的 background 同时设置
   post: false # post 文章开启
   page: true # page 页开启
-  username: leesohot# github 用户名与
+  username: # github 用户名与
   repo: # github 图片仓库
-  path: images/background.jpg # 图片路径, 记得最后和前面加一个 `/`
-  num: 1 # 图片数量
+  path: /images/404.jpg # 图片路径, 记得最后和前面加一个 `/`
+  num: 55 # 图片数量
   suffix: # 图片后缀
 
 # Main menu navigation (導航目錄)
@@ -216,10 +216,10 @@ favicon: /images/config/favicon-16x16-next.jpg
 # Avatar (頭像)
 avatar:
   img: /images/config/avatar.jpg
-  effect: false
+  effect: true
 
 # the banner image of home page
-index_img: /images/background.jpg
+index_img:
 
 # if the banner of page not setting, it will show the top_img
 default_top_img: /images/404.jpg
@@ -229,11 +229,11 @@ archive_img:
 
 # the banner image of tag page
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: /images/background.jpg
+tag_img:
 
 # the banner image of category page
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img: /images/background.jpg
+category_img:
 
 # If you are using hexo-douban, you can configure it (如果你有使用 hexo-douban,可配置這個)
 # douban:
