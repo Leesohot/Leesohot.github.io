@@ -121,7 +121,7 @@ random_background: # 随机背景, 注意不要和原主题的 background 同时
   page: true # page 页开启
   username: # github 用户名与
   repo: # github 图片仓库
-  path: /images/background.jpg # 图片路径, 记得最后和前面加一个 `/`
+  path: /images/background.jpg/ # 图片路径, 记得最后和前面加一个 `/`
   num: 55 # 图片数量
   suffix: # 图片后缀
 
