@@ -109,7 +109,7 @@ cdn_post: # 自动将图片替换为 cdn 加速过的, 仅对图片有部署在 
 
 content_opacity: # 设置透明度
   post: 1 # 填 0-1, 0为完全透明, 1为完全不透明
-  page: 0.6 # 填 0-1, 0为完全透明, 1为完全不透明
+  page: 0.8 # 填 0-1, 0为完全透明, 1为完全不透明
 
 banner_transparent: true # page页banner设置透明
 
