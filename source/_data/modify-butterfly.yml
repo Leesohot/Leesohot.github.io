@@ -121,9 +121,9 @@ random_background: # 随机背景, 注意不要和原主题的 background 同时
   post: false # post 文章开启
   page: true # page 页开启
   username: Leesohot # github 用户名与
-  repo: banner # github 图片仓库
+  repo: homepages # github 图片仓库
   path: / # 图片路径, 记得最后和前面加一个 `/`
-  num: 4 # 图片数量
+  num: 3 # 图片数量
   suffix: .jpg # 图片后缀
 
 # Main menu navigation (導航目錄)
