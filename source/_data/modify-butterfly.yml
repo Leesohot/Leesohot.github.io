@@ -573,7 +573,7 @@ yandex_site_verification:
 # Notice: color value must in double quotes like "#000" or may cause error!
 
  theme_color:
-   enable: true
+   enable: false
    main: "#49B1F5"
    paginator: "#00c4b6"
    button_hover: "#FF7242"
