@@ -8,6 +8,7 @@
 
 # Site
 title: Sohot>
+subtitle: blog
 description: This is Sohot's blog
 keywords:
 author: "Sohot"
@@ -695,7 +696,7 @@ hr_icon:
   icon-top:
 
 # the subtitle on homepage (主頁subtitle)
-subtitle: blog
+subtitle:
   enable: true
   # Typewriter Effect (打字效果)
   effect: true
