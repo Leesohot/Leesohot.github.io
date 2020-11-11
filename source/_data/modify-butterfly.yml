@@ -119,7 +119,7 @@ footer_transparent: 0.3 # 填 0-1, 0为完全透明, 1为完全不透明
 
 random_background: # 随机背景, 注意不要和原主题的 background 同时设置
   post: false # post 文章开启
-  page: true # page 页开启
+  page: false # page 页开启
   username: Leesohot # github 用户名与
   repo: homepages # github 图片仓库
   path: / # 图片路径, 记得最后和前面加一个 `/`
@@ -905,7 +905,7 @@ fragment_cache: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-  # - <link rel="stylesheet" href="/xxx.css">
+   - <link rel="stylesheet" href="/background.css">
   bottom:
   # - <script src="xxxx"></script>
 
